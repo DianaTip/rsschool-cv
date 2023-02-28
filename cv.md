@@ -36,9 +36,9 @@ function nicknameGenerator(name){
 ***
 Novosibirsk State Technical University
 + **courses: -**  protection of corporate networks;
-+ **         -**  JSFEPRESCHOOL
++ **-**           JSFEPRESCHOOL
 + **project: -**  [CV](https://dianatip.github.io/rsschool-cv/cv/ "CV")
-+ **         -**  [Momentum](https://rolling-scopes-school.github.io/dianatip-JSFEPRESCHOOL2022Q4/momentum/ "Momentum") 
++ **-**           [Momentum](https://rolling-scopes-school.github.io/dianatip-JSFEPRESCHOOL2022Q4/momentum/ "Momentum") 
 
 ### Expirience ###
 ***
