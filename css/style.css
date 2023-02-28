@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+   }
+
+.body {
+    min-height: 100vh;
+    margin: 0; padding: 0;
+    display: flex;
+    flex-direction: column;
+   justify-content: space-between;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header {
+    background: hsl(44, 83%, 47%);
+    width: 100%;
+    height: 100px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+  }
+
+  html {
+    scroll-behavior: smooth; 
+  }
+
+  .nav-link {
+    padding: 0 20px;
+    line-height: 100px;
+  }
+
+  .main {
+    background: #ddd9c9;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .main-cont {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .section {
+    width: 50%;
+  }
+
+  @media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
+
+ #profile {
+   height: 555px;
+ }
+
+.photo {
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.hed1 {
+    color: rgb(7, 7, 99);
+    font-size: 42px;   
+    padding-left: 30px;
+}
+
+.hed2 {
+    color: rgb(55, 55, 124);
+    font-size: 36px;
+    padding-left: 100px;
+    }
+
+.hed3 {
+    padding-left: 40px;
+    font-size: 24px;  
+    color: rgb(22, 106, 131);
+}
+
+#about {
+    text-align: left;
+    height: 500px;
+}
+
+.educ {
+    text-align: left;
+}
+
+#skill {
+    text-align: left;
+    height: 200px;
+}
+
+#lan {
+    text-align: left;
+}  
+
+.contact {
+        text-align: left;
+}
+
+.block{
+    height:30%;
+}
+    
+#code {
+    text-align: left;
+    height: 100px;
+}
+
+#project {
+    text-align: left;
+
+}
+
+.footer {
+   background:hsl(44, 83%, 47%);
+   width: 100%;
+   height: 40px;
+} 
+
+.footer-cont {
+    display: flex;
+    justify-content: space-between;
+}
+.year {
+padding-left: 20px;
+height: 42px;
+}
+
+.git {
+    height: 40px;
+}
+
+.git-pr {
+    height: 40px;
+    }
+
+.rs {
+   width: 100px;
+}
