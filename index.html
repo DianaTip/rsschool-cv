@@ -4,98 +4,103 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="stylesheet" href="./css/style.css">
     <title>CV</title>
 </head>
 <body>
     <header class="header">
-        <div class="container">
-           <nav class="nav">
-             <ul class="nav-list">
-               <li class="about"><a href="#about" class="nav-link">About</a></li>
-               <li class="nav-item"><a href="#educ" class="nav-link">Education</a></li>
-               <li class="nav-item"><a href="#skill" class="nav-link">Skills</a></li>
-               <li class="nav-item"><a href="#lan" class="nav-link">Language</a></li>
-               <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
-               <li class="nav-item"><a href="#project" class="nav-link">Projets</a></li>
-               <li class="nav-item"><a href="#contact" class="nav-link">Contacts</a></li> 
-           </ul>
-         </nav>  
-        </div>
-      </header>
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#summary" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+            <li class="nav-item"><a href="#skill" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#language" class="nav-link">Language</a></li>
+            <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+            <li class="nav-item"><a href="#project" class="nav-link">Projets</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link">Contacts</a></li> 
+          </ul>
+        </nav>  
+      </div>
+    </header>
 
     <main class="main">
-     <div class="main-cont">
-        <section class="section" id="profile"> 
-            <div class="block">
-              <div class="contact">
-                <img class="photo" src="./assets/img/photo_1.jpg" alt="My photo">
-                <h1 class="hed1">Diana Tipunova</h1>  
-              </div>
-                <h3 class="hed3">Engineer in the company</h3>
-            </div>
-        </section>
-
-        <section class="section" id="about">
-            <div class="block">
-               <div class="contact">
-                <h2 class="hed2">Contacts</h2>
-                <ul>
-                    <li>Phone: 375293880573</li>
-                    <li>E-mail: dianatipunova@gmail.com</li>
-                    <li>GitHub: DianaTip</li>
-                    <li>Discord: DianaTip</li>
-                    </ul>
-                </div>
-            <h2 class="hed2">About me</h2>
-            <p>After graduating from university (quite a long time) I work as an engineer in a company. The purpose of studying at rs school is to gain new knowledge. The ability to remember the basics of programming and get back to working on projects. I consider myself a purposeful person.</p>
-            
-            
-            <h2 class="hed2">Education</h2>
-            <div class="educ">
-            <p>Novosibirsk State Technical University</p>
-            <p><b>courses:</b> protection of corporate networks</p>
-            </div>
-        </div>
-        </section>
-
-        <section class="section" id="skill">
-            <h2 class="hed2">Skills</h2>
-            <ul>
-              <li>Visual Fox</li>
-              <li>C++</li>
-              <li>Delphi</li>
-           </ul>
-        </section>
-        
-        <section class="section" id="code">
-            <h2 class="hed2">Code examples</h2>
-            <pre class="func"> 
-                function multiply(a, b)
-                { return (a * b) }
-           </pre> 
-        </section>
-
-        <section class="section" id="lan">
-            <h2 class="hed2">Language</h2>
-            <ul>
-              <li>Russian</li>
-              <li>English - In the process of self-study</li>
-            </ul>
-        </section>
-
-        <section class="section" id="project">
-            <h2 class="hed2">Projects</h2>
-
-            <p><a href="https://dianatip.github.io/rsschool-cv/cv">My CV</a></p>
-        </section>
-    </div>
-</main>
+      <div class="main-container">
+        <section class="section-profile" id="profile"> 
+          <img class="photo" src="./img/photo_1.jpg" alt="My photo">
+          <div class="name">
+            <h1 class="h1">Diana Tipunova</h1>  
+            <h3 class="h3">Engineer in the company</h3>
+          </div>
+       </section>
+       <section class="section" id="contact">
+          <h2 class="h2">Contacts</h2>
+          <ul>
+            <li class="section-item">Phone: 375293880573</li>
+            <li class="section-item">E-mail: <a href="mailto:dianatipunova@gmail.com">dianatipunova@gmail.com </a></li>
+            <li class="section-item">GitHub: <a href="https://github.com/DianaTip">DianaTip</a></li>
+            <li class="section-item">Discord: DianaTip#0294</li>
+          </ul>
+       </section>
+       <section class="section" id="summary">
+          <h2 class="h2">About me</h2>
+          <p>After graduating from university (quite a long time) I work as an engineer in a company. The purpose of studying at rs school is to gain new knowledge. The ability to remember the basics of programming and get back to working on projects. I consider myself a purposeful person.</p>
+       </section>
+       <section class="section" id="skill">
+        <h2 class="h2">Skills</h2>
+        <ul>
+          <li>Visual Fox</li>
+          <li>C++</li>
+          <li>Delphi</li>
+          <li>HTML</li>
+       </ul>
+    </section>
+    <section class="section" id="code">
+      <h2 class="h2">Code examples</h2>
+      <pre class="pre">
+        <code>
+          function digits(n) {
+            var i = String(n);
+            return i.length;
+          }          
+          </code>            
+     </pre> 
+  </section>
+  <section class="section" id="education">
+    <h2 class="h2">Education</h2>
+    <p>Novosibirsk State Technical University</p>
+    <p><b>courses:</b></p>
+    <p> - protection of corporate networks</p>
+    <p> - JSFEPRESCHOOL</p>
+  </section>
+  <section class="section" id="project">
+    <h2 class="h2">Projects</h2>
+    <ul>
+      <li class="section-item"><a href="https://dianatip.github.io/rsschool-cv/cv">My CV</a></li>
+      <li class="section-item"><a href="https://rolling-scopes-school.github.io/dianatip-JSFEPRESCHOOL2022Q4/momentum/">Momentum</a></li>
+    </ul>
+  
+  <section class="section" id="language">
+    <h2 class="h2">Language</h2>
+    <ul>
+      <li>Russian</li>
+      <li>English - In the process of self-study</li>
+    </ul>
+  </section>
+</section>
+</div>
+</main> 
 	
 <footer class="footer">
-    <div class="footer-cont">
-      <p class="year"><b>2022</b></p>   
-      <a href="https://github.com/DianaTip"><img class="git" src="./assets/img./git.jpg" alt="Github"></a>
-      <a href="https://rs.school/js-stage0/"><img class="rs" src="./assets/img./rs.jpg" alt="RSchool"></a>
+    <div class="footer-container">
+      <p class="year"><b>2023</b></p>   
+      <a href="https://github.com/DianaTip"><img src="./img/git.jpg" width="40" height="44" alt="Github"></a>
+      <a href="https://rs.school/js-stage0/"><img src="./img/rs.jpg" width="100" height="44" alt="RSchool"></a>
     </div>
 </footer> 
 
