@@ -1,1 +1,1 @@
-# rsschool-cv
+https://dianatip.github.io/rsschool-cv/cv
