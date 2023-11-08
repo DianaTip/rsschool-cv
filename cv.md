@@ -1,7 +1,6 @@
 # Diana Tipunova #   
 
-![My photo](https://raw.githubusercontent.com/DianaTip/rsschool-cv/gh-pages/img/photo-2.jpg)
-
+![My photo](./img/photo-2.jpg)
 ***
 ### Contacts ###
 ***
