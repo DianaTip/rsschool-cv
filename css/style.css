@@ -1,0 +1,161 @@
+*{
+box-sizing: border-box;
+font-family: 'Rubik', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  }
+
+body {
+  background-color: rgb(235, 229, 223);
+  }
+
+.h1 {
+  color: rgb(7, 7, 99);
+  font-size: 42px;
+  letter-spacing: 5px;
+  text-align: center;
+  }
+  
+.h2 {
+  color: rgb(25, 25, 228);
+  font-size: 36px;
+  text-align: center;
+  }
+  
+.h3 {
+  font-size: 24px;
+  color: rgb(25, 25, 228);
+  text-align: center;
+  }
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  }
+
+.container-header {
+width: 100%;
+display: flex;
+background-color: hsl(180, 45%, 74%);
+overflow: hidden;
+}
+
+.header-photo {
+width: 30%;
+background-color: white;
+display: flex;
+justify-content: center;
+}
+
+.photo {
+border-radius: 50%;
+border: 5px solid hsl(180, 45%, 74%);
+}
+
+.section-profile {
+width: 70%;
+justify-content: space-around;
+}
+
+.nav-list {
+display: flex;
+justify-content: flex-end;
+align-items: center;
+list-style: none;
+margin: 0;
+}
+
+.nav-link {
+padding: 0 20px;
+line-height: 80px;
+}
+
+.nav-item a {
+color: rgb(7, 7, 99);
+text-decoration: none;
+transition: .3s;
+}
+
+.nav-item a:hover {
+color:rgb(136, 136, 233);
+}
+
+.name {
+color: rgb(7, 7, 99);
+}
+
+.main {
+background-color: #edf1f1;
+}
+
+.main-container {
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.section {
+width: 70%;
+background-color: white;
+}
+
+.section-left{
+width: 30%;
+background-color: hsl(180, 45%, 74%);
+padding-left: 20px;
+}
+
+.section-left ul {
+padding-left: 20px;
+}
+
+@media (max-width: 768px) {
+ .section {
+ width: 100%;
+ }
+}
+
+.section-item {
+  list-style: none;
+  }
+
+.section-item a {
+color: rgb(7, 7, 238);
+text-decoration: none;
+transition: color 0.3s;
+list-style: none;
+}
+
+.section-item a:hover {
+color: rgb(136, 136, 233);
+}
+
+.section-lang {
+  width: 100%;
+  }
+
+.pre {
+margin: 0;
+}
+
+.footer {
+background:hsl(180, 45%, 74%);
+padding: 0 20px;
+}
+
+.footer-container {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 0 auto;
+}
+
+.year {
+color: rgb(25, 25, 228);
+font-size: 36px;
+margin-top: 0;
+margin-bottom: 0;
+}
